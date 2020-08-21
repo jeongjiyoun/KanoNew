@@ -3,12 +3,12 @@ package com.mynote.kano;
 import android.content.Intent;
 import android.os.Bundle;
 
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -17,10 +17,9 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -45,7 +44,7 @@ public class write_diaryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_write_diary);
+        setContentView(R.layout.activity_diary_write);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -141,7 +140,7 @@ public class write_diaryActivity extends AppCompatActivity {
     }
 
     public void writeDiary(){
-        Toast.makeText(this,"write",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"write", Toast.LENGTH_LONG).show();
         Intent intent = getIntent();
         diaryDate = intent.getExtras().getString("diaryDate");
         //userId 바꿔주기

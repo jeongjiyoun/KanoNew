@@ -1,16 +1,14 @@
 package com.mynote.kano;
 
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.service.notification.ConditionProviderService;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 public class CommitActivity extends AppCompatActivity {
 
@@ -52,22 +50,15 @@ public class CommitActivity extends AppCompatActivity {
                 String descStr = item.getDesc();
                 Drawable iconDrawable = item.getIcon();
 
-                // TODO : use item data.
-
                 //온클릭이벤트 데이터 쓰는 것 성공!
                 Intent intent = new Intent(getApplicationContext(),CListActivity.class);
-
 
                 intent.putExtra("name",titleStr); /*송신*/
                 intent.putExtra("age",20);
                 startActivity(intent);
-
             }
         });
         listview.setAdapter(adapter);
-
     }
-
-
 }
 

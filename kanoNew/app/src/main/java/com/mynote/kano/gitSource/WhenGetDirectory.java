@@ -1,15 +1,13 @@
 package com.mynote.kano.gitSource;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+
 import android.util.Log;
 import android.widget.TextView;
 
-import com.apollographql.apollo.ApolloCall;
-import com.apollographql.apollo.ApolloClient;
-import com.apollographql.apollo.api.Response;
-import com.apollographql.apollo.exception.ApolloException;
-import com.mynote.kano.GetDirectoryQuery;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.mynote.kano.R;
 import com.mynote.kano.gitSource.gitConnection.GitConnectApplication;
 
