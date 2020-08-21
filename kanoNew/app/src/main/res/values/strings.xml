@@ -7,4 +7,11 @@
     <string name="github_client_secret">64fa4a7116bd4cccfedf1ce8c5425a32eca797fb</string>
     <string name="github_redirect_url">kano://authorization-callback.url</string>
     <string name="github_token">YOUR GITHUB TOKEN</string>
+
+
+    <!-- FireBase GitHub ログイン START-->
+    <string name="oAuthLink">github.com</string>
+    <string name="client_id">16f617ee82c98b8bf3d7</string>
+    <!-- FireBase GitHub ログイン END-->
+
 </resources>

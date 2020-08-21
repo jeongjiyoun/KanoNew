@@ -15,35 +15,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "493589508245-d0a54k5lalgaj3u6aadlko6vmts2qa19.apps.googleusercontent.com",
+          "client_id": "493589508245-msjrocl6skts06oil7gn7124ju0ngf25.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.mynote.kano",
-            "certificate_hash": "a6a354e560332d5300301145caa1561521fc711e"
-          }
-        },
-        {
-          "client_id": "493589508245-fc876eea3maq2da5nbh9b0pv9i3smjrp.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.mynote.kano",
-            "certificate_hash": "47e3bbf26e4ddcd4aae9353f9bc0b970673cad69"
-          }
-        },
-        {
-          "client_id": "493589508245-0j3gg1tkcrjs6d2o3luamtctqp6bd418.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.mynote.kano",
-            "certificate_hash": "18f2c0be648485e6f0854eddd9fccb136406bcfa"
-          }
-        },
-        {
-          "client_id": "493589508245-0k5l9qtj87buok800p5p11t5p5erg0ea.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.mynote.kano",
-            "certificate_hash": "3a607204cb2eff7d87abad02c35d4b26144673c0"
+            "certificate_hash": "54948dea4fe67d957ae7549ef88d0b44214d5c6d"
           }
         },
         {

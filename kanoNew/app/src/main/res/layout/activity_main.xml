@@ -15,13 +15,6 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/goDatepickBtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="goDatepick"
-            android:text="goDatepick" />
-
-        <Button
             android:id="@+id/commitBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
