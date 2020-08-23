@@ -14,4 +14,10 @@
     <string name="client_id">16f617ee82c98b8bf3d7</string>
     <!-- FireBase GitHub ログイン END-->
 
+    <!-- GraphQl GitData取得 START -->
+    <string name="git_DataLink">https://api.github.com/graphql</string>
+    <string name="git_UserAgent">Android Apollo Client</string>
+    <string name="git_authHeader">bearer 3cf769dfb0271c5590712f8590ee450b4ef8914c</string>
+    <!-- GraphQl GitData取得 END -->
+
 </resources>
